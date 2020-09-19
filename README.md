@@ -6,7 +6,8 @@ A documentation repository for POSTECH CSED434 Adv. Programming Fall 2020
 
 ### Documentation list
 
-#### Summary of `Clean Code` [link](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+##### Summary of the book 'Clean Code' [link](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+
 | Chap | Name             | Comment |
 |------|------------------|---------|
 | 02   | Meaningful Names |         |
