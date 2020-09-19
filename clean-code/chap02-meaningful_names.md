@@ -1,4 +1,4 @@
-# 02 : Meaningful Names
+# Meaningful Names
 
 ### Use intention-revealing names
 - e.g. While iterating in an array
