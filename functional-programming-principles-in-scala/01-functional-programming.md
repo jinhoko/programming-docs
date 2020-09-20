@@ -31,8 +31,8 @@ computing 7
 ```
 *(It is more natural to use `def` and CBN together)*
 
-** Know when to use `val` and `def`+CBN. It makes your program much simple and clear.
-It is very important to estimate the actual timing of when the variable is evaluated.`
+Know when to use `val` and `def`+CBN. It makes your program much simple and clear.
+It is very important to estimate the actual timing of when the variable is evaluated.
 
 ### Recursion
 
