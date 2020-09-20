@@ -6,6 +6,14 @@ A documentation repository for POSTECH CSED434 Adv. Programming Fall 2020
 
 ### Documentation list
 
+##### Summary of the book 'Functional Programming Principles in Scala [link](https://courseware.epfl.ch/courses/course-v1:EPFL+progfun1+2018_T1/about)
+| idx | Name             | Link | Comment |
+|------|------------------|---------|---------|
+| 01   | Functional Programming | [link](./functional-programming-principles-in-scala/01-functional-programming.md)        |         |
+| 02   | Functions        | [link](./functional-programming-principles-in-scala/02-functions.md)        |         |
+| 04   |                  |         |         |
+
+
 ##### Summary of the book 'Clean Code' [link](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 
 | Chap | Name             | Link | Comment |
