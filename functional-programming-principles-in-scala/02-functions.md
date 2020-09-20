@@ -62,7 +62,7 @@ this.value
 ...
 ```
 ##### Essence of OOP
-- Multiple representation(dynamic dispatch) ; Sharing a same ADT within two different class.
+- Multiple representation(dynamic dispatch) ; Sharing a same ADT within two different classes.
 - Encapsulation
 - Subtyping
 - Inheritance
