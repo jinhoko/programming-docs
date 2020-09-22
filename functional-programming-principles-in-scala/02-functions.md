@@ -68,9 +68,12 @@ this.value
 - Inheritance
 - Self-reference
 
+*Remember to exactly know  for good-quality OOP coding. Scala does not support multi-level inheritance, it instead introduces `trait`. Meanwhile, C++ supports all types of inheritance, even the diamond inheritance, which makes the reader much hard to comprehend the design intent*
+
 ### Assertion
 ```scala
 assert{expr}    // state invariants on your code. can be disabled
 require{expr}   // Fault goes to the user of the code. cannot be disabled.
 ensuring{expr}  // Fault goes to code writer. cannot be disabled.
 ```
+It is recommended to frequently use `assert` statement in loop design. Use `assert` with loop invariant.
