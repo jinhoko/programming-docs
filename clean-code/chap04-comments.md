@@ -14,7 +14,7 @@ Bad
 ```java
 if (employee.isEligibleForFullBenefits())
 ```
-Better!
+Better! Make it as your own habit!
 
 ### Good, Necessary Comments
 
