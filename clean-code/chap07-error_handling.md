@@ -60,7 +60,11 @@ Much better and precise!
 ### Use Unchecked Exception
 def) Checked exception : A forced, compile-time exception that must be handled. In JAVA, it does not inherit `RuntimeException`. [reference](https://madplay.github.io/post/java-checked-unchecked-exceptions)
 
-Using checked exception is very **costly**. That is, if a small exception logic has changed, we need to change all following logics along function call stacks.
+Using checked exception is very **costly**. That is, if a small exception logic has changed, we need to change all following logics along function call stacks. When implementing critical library, you must catch them.
+
+Scala doesn't declar checked exception because of higher-order function.
+Use 3rd party library, `no-exceptions` in scala to handl exceptions. 
+`throws SomeException` in Java : `@SomeException`(decorator) in scala.
 
 ### Provide context message with Exceptions
 ```
