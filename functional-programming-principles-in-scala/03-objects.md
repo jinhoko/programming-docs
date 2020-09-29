@@ -84,7 +84,7 @@ Every classes have scala.Nothing as its subclass.
 - Of course, scala somehow automatically inferences the type.
 
 ## Questions
-What is the real power of **OOP**?
-What is the real power of **FP**?
-What is the real power of **Type Theory**?
-What is the real power of **Traits**?
+What is the real power of **OOP**?  
+What is the real power of **FP**?  
+What is the real power of **Type Theory**?  
+What is the real power of **Traits**?  
