@@ -11,7 +11,7 @@ A documentation repository for POSTECH CSED434 Adv. Programming Fall 2020
 |------|------------------|---------|---------|
 | 01   | Functional Programming | [link](./functional-programming-principles-in-scala/01-functional-programming.md)        |         |
 | 02   | Functions        | [link](./functional-programming-principles-in-scala/02-functions.md)        |         |
-| 04   |                  |         |         |
+| 04   | Objects                  | [link](./functional-programming-principles-in-scala/03-objects.md)        |         |
 
 
 ##### Summary of the book 'Clean Code' [link](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
