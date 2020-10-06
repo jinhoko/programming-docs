@@ -32,11 +32,48 @@ class C[+A] {} - C is covariant
 class C[-A] {} - C is contravariant  
 class C[A] {}  - C is nonvariant
 
+### Covariance in List
+Would this work?
+```scala
+(suppose T<:U => List[T]<:List[U])
+
+trait List[+T] {
+  def prepend(elem:T): List[T] = {}
+}
+
+x : List[T]
+y : List[U]
+z : T
+w : U
+
+x.prepend(z) : List[T]
+y.prepend(w) : List[U]
+x.prepend(w) : ????
+```
+This would not work in the last case. Thus we add subtyping rule to `prepend()` in order to handle such case, as follows.
+```scala
+(suppose T<:U => List[T]<:List[U])
+
+trait List[+T] {
+  def prepend[U>:T](elem:U): List[U] = {}
+}
+
+x : List[T]
+y : List[U]
+z : T
+w : U
+
+x.prepend(z) : List[T]
+y.prepend(w) : List[U]
+x.prepend(w) : List[U]
+```
+
 ### Why Covariance?
-- in JAVA, no concept of covariance ; thus implement
-  - in Java, covariance is prohibited! counterintuitive. (e.g. List<String> is not a subtype of List<Object>)
-  - refer to p.134 in book Effective Java *(item 28 : use bounded wildcards to increase API flexibility)*
-- Code becomes much simpler in Scala, with introduction of covariant.
+- in Java, no concept of covariance ; thus the user is responsible for the implementation
+	- in Java, covariance is prohibited! counterintuitive. (e.g. List<String> is not a subtype of List<Object>)
+	- refer to p.134 in book Effective Java *(item 28 : use bounded wildcards to increase API flexibility)*  
+
+=> Code becomes much simpler in Scala, with the  introduction of covariant.
 
 
 ### Case Classes and Pattern Matching
