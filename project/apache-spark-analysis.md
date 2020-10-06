@@ -8,6 +8,8 @@ spark/
   core/
     src/
       main/
+        resources/
+        java/
         scala/
           o/s/a/
             package.scala
@@ -25,6 +27,12 @@ spark/
   ...
   
 o/s/a := org/apache/spark
+```
+
+### List of Directories
+```
+
+
 ```
 
 
