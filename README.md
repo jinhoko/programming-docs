@@ -11,7 +11,8 @@ A documentation repository for POSTECH CSED434 Adv. Programming Fall 2020
 |------|------------------|---------|---------|
 | 01   | Functional Programming | [link](./functional-programming-principles-in-scala/01-functional-programming.md)        |         |
 | 02   | Functions        | [link](./functional-programming-principles-in-scala/02-functions.md)        |         |
-| 04   | Objects                  | [link](./functional-programming-principles-in-scala/03-objects.md)        |         |
+| 03   | Objects                  | [link](./functional-programming-principles-in-scala/03-objects.md)        |         |
+| 04   | Types and Pattern Matching | [link](./functional-programming-principles-in-scala/04-types-and-pattern-matching.md) |   |
 
 *Opinion on Programming Concepts and Scala [link](./etc/programming-concepts-and-scala.md)*
 
