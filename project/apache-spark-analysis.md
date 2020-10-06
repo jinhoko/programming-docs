@@ -12,12 +12,12 @@ spark/
         java/
         scala/
           o/s/a/
-            package.scala
-            ClassName1.scala
+            package.scala     ( package o.s  )
+            ClassName1.scala  ( package o.s.a )
             ClassName2.scala
             subfolder/
-              package.scala
-              ClassName2.scala
+              package.scala     ( package o.s.a )
+              ClassName3.scala  ( package o.s.a.sub )
   otherlib/
     src/main/scala/
       /o/s/a/
