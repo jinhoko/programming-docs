@@ -2,8 +2,10 @@
 
 ### Many ways of software development
 - Waterfall Model
+  - It has been adopted since long time ago.
 - Test-Last Development
 - TDD (Test Driven Development)
+  - Write unit tests first before developing production code.
 - Agile
 
 ### What is Unit Testing?
@@ -24,14 +26,23 @@ A suite of simple tests for validating the proper execution of target codes
 - Test code is just as important as production code ; requires the same pipeline with the production code.
 - Oversized tests would lead to daunting management problem
 
-### Writing Tests
+#### Unit Test Mass Problem
+- Unit test indeed is trivial. It accumulates over time.
+- We can remove unit tests whenever we are certain about the test.
+
+### Tests
+
+#### Types of Tests
+- Unit Tests
+- Integration Tests
+- System Tests
+Integration test and system test is very very important.
 
 #### Methodology
 - Follow the *given-when-then* convention in your test.
 - Also eleminate duplicates by using *template method* pattern.
 
 #### Summary
-
 
 FIRST
 - Fast : Test should be fast, so that we can run frequently
