@@ -24,6 +24,8 @@ A documentation repository for POSTECH CSED434 Adv. Programming Fall 2020
 | 03   | Functions        | [link](./clean-code/chap03-functions.md)        |         |
 | 04   | Comments                 | [link](./clean-code/chap04-comments.md)        | comment on comment!        |
 | 07   | Error Handling         | [link](./clean-code/chap07-error_handling.md)        |        |
+| 09   | Unit Tests         | [link](./clean-code/chap09-unit-tests.md)        |        |
+| 10   | Classes         | [link](./clean-code/chap10-classes.md)        |        |
 
 #### Project (Distributed External MergeSort) Design Documentation
 
