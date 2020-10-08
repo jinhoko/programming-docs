@@ -32,7 +32,8 @@ A suite of simple tests for validating the proper execution of target codes
 
 #### Summary
 
-**FIRST**
+
+FIRST
 - Fast : Test should be fast, so that we can run frequently
 - Independent : Each should be independent. One test should not set up conditions for the next test.
 - Repeatable : Test should be repeatable and consistent in any environment.
