@@ -1,6 +1,6 @@
 # Principles for Better Design
 
-*Lecture given by course professor*
+*Lecture given from course professor*
 
 ### Simplicity - Keep it simple stupid
 Ask : Is it the simplest possible design I can think of?
