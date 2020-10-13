@@ -13,8 +13,10 @@ A documentation repository for POSTECH CSED434 Adv. Programming Fall 2020
 | 02   | Functions        | [link](./functional-programming-principles-in-scala/02-functions.md)        |         |
 | 03   | Objects                  | [link](./functional-programming-principles-in-scala/03-objects.md)        |         |
 | 04   | Types and Pattern Matching | [link](./functional-programming-principles-in-scala/04-types-and-pattern-matching.md) |   |
+| 05   | Lists | [link](./functional-programming-principles-in-scala/05-lists.md) |
 
-*Opinion on Programming Concepts and Scala [link](./etc/programming-concepts-and-scala.md)*
+*Opinion on Programming Concepts and Scala [link](./etc/programming-concepts-and-scala.md)*  
+*Principles for Better Design [link](./etc/principles-for-better-design.md)* 
 
 #### Summary of the book 'Clean Code' [link](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 
