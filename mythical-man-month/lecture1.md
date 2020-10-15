@@ -43,10 +43,12 @@ Thus, too many people would conversely lead to overall performance degradation.
   
  ### Brooks's Law
  > Adding manpower to a late software project makes it later.
+ 
  We can derive schedules using fewer man and more months.
  
  ### Time
  > The most crucial resource in software project is TIME.
+ 
  Take priority!
  
  ### Reducing communication with myself/ourselves
