@@ -29,6 +29,12 @@ A documentation repository for POSTECH CSED434 Adv. Programming Fall 2020
 | 09   | Unit Tests         | [link](./clean-code/chap09-unit-tests.md)        |        |
 | 10   | Classes         | [link](./clean-code/chap10-classes.md)        |        |
 
+#### Summary of the book 'Mythical Man Month'
+
+| Chap | Name             | Link | Comment |
+|------|------------------|---------|---------|
+| 01   | Lecture1 | [link](./mythical-man-month/lecture1.md)        |         |
+
 #### Project (Distributed External MergeSort) Design Documentation
 
 - *Analysis Report on Apache Spark Project Structure [link](./project/apache-spark-analysis.md)*
