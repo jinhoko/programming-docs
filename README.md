@@ -38,3 +38,6 @@ A documentation repository for POSTECH CSED434 Adv. Programming Fall 2020
 #### Project (Distributed External MergeSort) Design Documentation
 
 - *Analysis Report on Apache Spark Project Structure [link](./project/apache-spark-analysis.md)*
+
+#### External Files
+- [link](./external/)
