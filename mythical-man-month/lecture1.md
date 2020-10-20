@@ -12,7 +12,7 @@
 > Q : Software projects lack of calendar time in most cases. Why?
 
 It takes so much effort to be a **ten times programmer**.  
-In worst cases, one's productivity can be **0** or even become **negative** : Bugs or too complex codes.
+In worst cases, one's productivity can be **0** or even become **negative** : Bugs or too complex codes.  
 Programming also concerns human element.
 
 
