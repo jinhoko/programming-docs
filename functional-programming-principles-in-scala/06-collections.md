@@ -28,7 +28,7 @@ Monad programming. *(what is monad programming?)*
 `xs flatMap f = (xs map f).flatten`
 
 ### Translating `for comprehension`
-`(1 until n).flatMap i => (1 until i).flatMap j => content`
+`(1 until n).flatMap i => (1 until i).flatMap j => content`  
 Which statement to use? : It is much better to implicitly handle loops just by using `while loop`.
 
 
