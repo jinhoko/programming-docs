@@ -16,7 +16,7 @@ case casee Tuple2[
   @specialized(Int, Long, Double, ...., AnyRef) + T2
 ]
 ```
-- (doc [link](https://www.scala-lang.org/api/2.12.3/scala/Tuple22.html)
+- (doc [link]) (https://www.scala-lang.org/api/2.12.3/scala/Tuple22.html)
 
 ### Implicit
 ```
