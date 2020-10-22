@@ -28,7 +28,7 @@
 etc: Admin, Editor, ..
 ** What do I want to be? **
 
-Draw a radically simply **communcational flow**
+Draw a radically **simply communcational flow** -> Key point!
 
 ### Surgical Team is a Culture
 - All members **MUST** follow the rules.
