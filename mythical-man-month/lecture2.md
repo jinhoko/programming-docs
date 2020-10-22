@@ -56,4 +56,26 @@ Formalize communication in documents.
 - electronic form
 
 #### 4. Write with UML (Unified Modeling Language)
+- A standard way to visualize design of a system.
+- In real, many corps do not use : Too complex
+- Informal notation upon agreement is enough
+
+### Essential vs Accidential Difficulties
+- Essential : hard part of software design
+  - specification, design, testing of this conceptual construct
+- Accidental : not the hard part
+  - representing the construct
+  - testing fidelity of the representation
+
+### Difficulties In Software Technology
+- Essence : can never be eliminated
+  - it's the nature of software
+    - comlexity
+    - conformity ; different interfaces by different people
+    - changeability ; changes in environment force changes on software product
+    - invisibility ; software is invisible
+- Accidents
+  - can be eliminated with effort
+  
+### Breakthroughs for Accidental Difficulties
 - 
