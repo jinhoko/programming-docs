@@ -74,8 +74,13 @@ Formalize communication in documents.
     - conformity ; different interfaces by different people
     - changeability ; changes in environment force changes on software product
     - invisibility ; software is invisible
-- Accidents
-  - can be eliminated with effort
+- Accidents : can be eliminated with effort
+  - Aim for this one.
   
 ### Breakthroughs for Accidental Difficulties
-- 
+- Use High-level languages
+  - increase in productivity, reliability
+- Time-sharing
+- Unified programming environments
+
+### No silver bullet!
