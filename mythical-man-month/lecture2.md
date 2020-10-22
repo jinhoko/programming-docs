@@ -48,7 +48,7 @@ Draw a radically simply **communcational flow**
 
 ### Q. How to prevent your project from falling because of its own overhead?
 
-#### 1,2,3. Documentation
+#### 1 & 2 & 3. Documentation
 Formalize communication in documents.
 - text documents
 - graphics
