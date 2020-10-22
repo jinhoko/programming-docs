@@ -24,7 +24,9 @@
 | Copilot | alter ego of surgeon | still know all the codes, researcher, insurance against disaster|
 | Toolsmith | set up all the tools | support surgeon on tools
 | Tester | | devices test cases and data |
+
 etc: Admin, Editor, ..
+** What do I want to be? **
 
 Draw a radically simply **communcational flow**
 
@@ -44,4 +46,14 @@ Draw a radically simply **communcational flow**
 > Case 2 : 20 teams with 5 members, each with specialized roles.  
 > The second case is much better!
 
-### 
+### Q. How to prevent your project from falling because of its own overhead?
+
+#### 1,2,3. Documentation
+Formalize communication in documents.
+- text documents
+- graphics
+- paper (paragraphs)
+- electronic form
+
+#### 4. Write with UML (Unified Modeling Language)
+- 
