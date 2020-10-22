@@ -83,4 +83,4 @@ Formalize communication in documents.
 - Time-sharing
 - Unified programming environments
 
-### No silver bullet!
+### NOTE : No Silver Bullet!
