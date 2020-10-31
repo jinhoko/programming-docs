@@ -15,8 +15,8 @@
 *(core concept of OOP, from the book Effective Java)*
 
 (example)
-> Inheritance : class Rectangle extends class ColoredRectangle  
-> Composability : class ColoredObjects references class Rectangle and class Color
+- Inheritance : class Rectangle extends class ColoredRectangle  
+- Composability : class ColoredObjects references class Rectangle and class Color
 
 (core concept of computation thinking)
 - divide and conquer
