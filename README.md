@@ -15,6 +15,8 @@ A documentation repository for POSTECH CSED434 Adv. Programming Fall 2020
 | 04   | Types and Pattern Matching | [link](./functional-programming-principles-in-scala/04-types-and-pattern-matching.md) |   |
 | 05   | Lists | [link](./functional-programming-principles-in-scala/05-lists.md) |
 | 06   | Collections | [link](./functional-programming-principles-in-scala/06-collections.md) |
+| 07   | For, Maps | [link](./functional-programming-principles-in-scala/07-for-maps.md) |
+
 
 *Opinion on Programming Concepts and Scala [link](./etc/programming-concepts-and-scala.md)*  
 *Principles for Better Design [link](./etc/principles-for-better-design.md)* 
