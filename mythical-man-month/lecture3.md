@@ -47,6 +47,7 @@ The second system is prone to over-design : *it's a general tendency!*
   - Immutable objects
   - functional style
   - Global variable
+  - How????????????????
 
 ### The Whole and the Parts
 - System debugging takes very long
