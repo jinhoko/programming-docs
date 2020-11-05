@@ -24,7 +24,9 @@ The second system is prone to over-design : *it's a general tendency!*
 - In software engineering : **Project meetings / Shared formal workbook (e.g. github, slack!)**
   - Note that, everyone should access the material, but NOT the internals
   - For internals, only the interfaces!
-  
+- Sync vs Async Communication
+  - Sync : Slack => might distract developers.
+  - Async : JIRA, shared document => much preferred. quality of writing.
 ### Calling the Shot
 - Effort to implement a program goes up as a magnitudes of program size.
 
@@ -36,13 +38,25 @@ The second system is prone to over-design : *it's a general tendency!*
 > How to represent the data?
 
 ### Plan to Throw One Away
+- Perfect design is impossible => admit first
+- Things are ought to change
 
 #### (2 Steps forward and 1 step back)
+- Some critical bugs are discoverd after long time.
+- Remove side effects
+  - Immutable objects
+  - functional style
 
 ### The Whole and the Parts
+- System debugging takes very long
+  - Use an automated script
 
 ### Hatching a Catastrophe
+- Set up **milestones and dates**
+  - Milestone is better when set to BINARY value
+- Do not lie about milestone after once set
 
 ### Documentation
+- Record "Why?"
 
 ### Epilogue : The tar pit of software engineering will continue EVER!
