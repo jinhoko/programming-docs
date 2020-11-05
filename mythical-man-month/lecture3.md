@@ -35,4 +35,14 @@ The second system is prone to over-design : *it's a general tendency!*
   
 > How to represent the data?
 
-### 
+### Plan to Throw One Away
+
+#### (2 Steps forward and 1 step back)
+
+### The Whole and the Parts
+
+### Hatching a Catastrophe
+
+### Documentation
+
+### Epilogue : The tar pit of software engineering will continue EVER!
