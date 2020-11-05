@@ -38,6 +38,8 @@ A documentation repository for POSTECH CSED434 Adv. Programming Fall 2020
 |------|------------------|---------|---------|
 | 01   | Lecture1 | [link](./mythical-man-month/lecture1.md)        |         |
 | 02   | Lecture2 | [link](./mythical-man-month/lecture2.md)        |         |
+| 03   | Lecture3 | [link](./mythical-man-month/lecture3.md)        |         |
+
 
 #### Project (Distributed External MergeSort) Design Documentation
 
