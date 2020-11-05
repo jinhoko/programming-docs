@@ -4,7 +4,7 @@
 
 Apply same, strict rules in your every decision.
 - Should be one mind OR group of agreeing minds.
-- : Someone should control the concepts
+- Someone should control the concepts
 
 ### Second-System Effect
 
