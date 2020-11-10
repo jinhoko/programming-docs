@@ -19,7 +19,7 @@ Computation is delayed by introducing a closure
 ```
 lazy val x = expr
 ```
-Like call-by-need.
+Like call-by-need.  
 It is powerful in scala because it is thread-safe.
 
 ### Lazy initialization in Java
