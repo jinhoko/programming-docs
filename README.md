@@ -16,6 +16,7 @@ A documentation repository for POSTECH CSED434 Adv. Programming Fall 2020
 | 05   | Lists | [link](./functional-programming-principles-in-scala/05-lists.md) |
 | 06   | Collections | [link](./functional-programming-principles-in-scala/06-collections.md) |
 | 07   | For, Maps | [link](./functional-programming-principles-in-scala/07-for-maps.md) |
+| 08   | Streams, Lazy Evalulation | [link](./functional-programming-principles-in-scala/08-streams-and-lazy-evaluation.md) |
 
 
 *Opinion on Programming Concepts and Scala [link](./etc/programming-concepts-and-scala.md)*  
