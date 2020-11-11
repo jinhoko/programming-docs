@@ -41,6 +41,19 @@ A documentation repository for POSTECH CSED434 Adv. Programming Fall 2020
 | 02   | Lecture2 | [link](./mythical-man-month/lecture2.md)        |         |
 | 03   | Lecture3 | [link](./mythical-man-month/lecture3.md)        |         |
 
+#### Summary of the article 'Out of the Tar Pit'
+
+| Chap | Name             | Link | Comment |
+|------|------------------|---------|---------|
+| 01   | Lecture1 | [link](./out-of-the-tar-pit/lecture1.md)        |         |
+
+
+#### Summary of the book 'Learning Concurrent Programming in Scala'
+
+| Chap | Name             | Link | Comment |
+|------|------------------|---------|---------|
+| 01   | Lecture1 | [link](./learning-concurrent-programming-in-scala/lecture1.md)        |         |
+
 
 #### Project (Distributed External MergeSort) Design Documentation
 
