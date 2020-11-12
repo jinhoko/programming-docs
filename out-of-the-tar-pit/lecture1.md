@@ -60,4 +60,36 @@ Dead code, unnecessary (data) abstraction
 
 #### Conclusion : Complexity breeds complexity, Simplicity is Hard, Power corrupts
 
+### 5. Classic approaches to managing complexity
 
+#### 5.1. Object-orientation
+
+It has evolved as the dominant method of general software development of traditional computers, and many of its characteristics spring from a desire to facilitate state-based computation.
+
+**State**
+- Object => some states & set of procedures accessing and manipulating that state
+- Problem with OOP : encapsulation based integrity constraint is strongly biased toward single-object contstraints. 
+- Object identity : can be considered to ba a rejection of the relational algebra. => forced to adopt creation of value objects.
+
+**Control**
+- Achieves concurrency control with message-passing model
+
+#### 5.2. Functional programming
+
+FP has its roots in completely stateless lambda calculus. The untyped lambda calculus is known to be equivalent in power to the standard stateful abstraction of compution : the Turing machine.
+
+**State**
+- It avoids state and gains property of *referntial transparancy*.
+- Informal reasoning gets effective.
+
+**Kinds of state**
+- Achieve state by passing extra parameters to the procedure. 
+- Use functional values to stimulate state.
+
+There is no reason why the functional sytyle of programming cannot be adopted in stateful languages => Birth of scala language?
+
+#### 5.3. Logic Programming
+
+### 6. Accidents and Essence
+
+### 7. Recommended General Approach
