@@ -25,7 +25,7 @@ Two widely-used approaches
 Problem with testing
 1. Gives you nothing
 2. Can give you different results based on different inputs
-=> Have you performed the right tests?
+=> Have you performed the right tests? / Reason why TDD alone is not enough.
 
 Conclusion : all methods of understanding have its shortcomings (even the informal reasoning)
 
