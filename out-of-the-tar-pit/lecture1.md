@@ -121,6 +121,7 @@ The complexity could not possibly be avoided even in the real world. Try to redu
 - Classify data (into 4 types) ; refer to the following image
  - Try to only leave essential state.
 - Control : is enirely accidental.
+
 <img src="https://github.com/dgggit/dist/blob/master/out-of-the-tar-pit/image1.png?raw=true" width="500">  
 
 
@@ -130,6 +131,7 @@ The complexity could not possibly be avoided even in the real world. Try to redu
  - 2. for ease of expression (e.g. data derived from a whole series of user inputs **and** previous values
 
 Recommendation : separate and avoid
+
 <img src="https://github.com/dgggit/dist/blob/master/out-of-the-tar-pit/image2.png?raw=true" width="500">  
 
 As a result, **seperation** is critical for avoiding complexity.
@@ -140,7 +142,8 @@ Follow the steps :
 2. Essential logic ; business logic
 3. Accidental state and control 
 
-Look for the arrows in the image! The direction of the arrows must be followed. 
+Look for the arrows in the image! The direction of the arrows must be followed.
+
 <img src="https://github.com/dgggit/dist/blob/master/out-of-the-tar-pit/image3.png?raw=true" width="500">  
 
 ## Miscellaneous
