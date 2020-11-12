@@ -57,3 +57,7 @@ Another control-related problem : concurrency (that affects testing as well). Co
 #### 4.4. Other types of Complexity causes
 
 Dead code, unnecessary (data) abstraction
+
+#### Conclusion : Complexity breeds complexity, Simplicity is Hard, Power corrupts
+
+
