@@ -1,20 +1,20 @@
 # Out of the Tar Pit
 
 
-### 1. Introduction 
+## 1. Introduction 
 
 The contents of the paper will help simplifying the construction of large-scale software systems.   
 *(perhaps with ideas combining with the relational database world!)*
 
 
-### 2. Complexity
+## 2. Complexity
 
 What makes building software hard : **Complexity, Conformity, Changeability and Invisibility**, and complexity is definitely the root cause. Being able to think and reason about our systems is crucial. 
 
 > (Hoare, 1980) The price of realibility is the pursuit of utmost simplicity. ... Two ways of constructing a software design : one is to make it so simple that there are no deficiencies, and other is to make it so complicated so that there are no obvious deficiencies. First one is much harder.
 
 
-### 3. How to UNDERSTAND a system
+## 3. How to UNDERSTAND a system
 
 Two widely-used approaches
 - Testing : black-box approach ; infer from the input and output
@@ -30,9 +30,9 @@ Problem with testing
 Conclusion : all methods of understanding have its shortcomings (even the informal reasoning)
 
 
-### 4. Causes of Complexity
+## 4. Causes of Complexity
 
-#### 4.1. Complexity caused by state
+### 4.1. Complexity caused by state
 
 > (Brooks, 1986) Every computer and computer software have numerous states. (Orders-of-magnitude more states for softwares!) Each state might yield different outputs, making testing so hard.
 
@@ -44,7 +44,7 @@ Impact of state on **informal reasoning** : results in case-by-case mental simul
 
 What we have to do : **limit and manage** the state.
 
-#### 4.2. Complexity caused by Control
+### 4.2. Complexity caused by Control
 
 The difficulty is that when control is an implicit part of the language (as it always is). When a programmer codes, he/she must be forced to specify **how** the system should work(in the matter of context) but **not simply what** is desired. Hence they are forced to over-specify the problem. 
 
@@ -52,20 +52,20 @@ These behavior makes reader to infer the 'how's of a programmer. The program is 
 
 Another control-related problem : concurrency (that affects testing as well). Common model is 'shared-state concurrency', that specifies the explicit control synchronization.
 
-#### 4.3. Complexity caused by Code Volume
+### 4.3. Complexity caused by Code Volume
 
 > (Brooks, 1986) Many of the classic problems developing software products derivce from this essential complexity and its nonlinear increase with size.  
 > (Djikstra, 1972) ... there is some kind of law of nature telling us that intellectual effort needed grows with the square of program length. 
 
-#### 4.4. Other types of Complexity causes
+### 4.4. Other types of Complexity causes
 
 Dead code, unnecessary (data) abstraction
 
-#### Conclusion : Complexity breeds complexity, Simplicity is Hard, Power corrupts
+### Conclusion : Complexity breeds complexity, Simplicity is Hard, Power corrupts
 
-### 5. Classic approaches to managing complexity
+## 5. Classic approaches to managing complexity
 
-#### 5.1. Object-orientation
+### 5.1. Object-orientation
 
 It has evolved as the dominant method of general software development of traditional computers, and many of its characteristics spring from a desire to facilitate state-based computation.
 
@@ -77,7 +77,7 @@ It has evolved as the dominant method of general software development of traditi
 **Control**
 - Achieves concurrency control with message-passing model
 
-#### 5.2. Functional programming
+### 5.2. Functional programming
 
 FP has its roots in completely stateless lambda calculus. The untyped lambda calculus is known to be equivalent in power to the standard stateful abstraction of compution : the Turing machine.
 
@@ -91,10 +91,10 @@ FP has its roots in completely stateless lambda calculus. The untyped lambda cal
 
 There is no reason why the functional sytyle of programming cannot be adopted in stateful languages => Birth of scala language?
 
-#### 5.3. Logic Programming
+### 5.3. Logic Programming
 
 
-### 6. Accidents and Essence
+## 6. Accidents and Essence
 
 Two types of complexity :
 - Essential complexity : relies in the essence of the problem
@@ -104,10 +104,10 @@ Two types of complexity :
 *(One following implication of the definition is, if the user don't even know about what something is, that is never a essential complexity.)*
 
  
-### 7. Recommended General Approach
+## 7. Recommended General Approach
 
 The complexity could not possibly be avoided even in the real world
 
-#### 7.1. Ideal wworld
+### 7.1. Ideal wworld
 
-#### 
+### 
