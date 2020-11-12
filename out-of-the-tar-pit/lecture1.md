@@ -38,7 +38,7 @@ Conclusion : all methods of understanding have its shortcomings (even the inform
 
 > (Brooks, 1986) Every computer and computer software have numerous states. (Orders-of-magnitude more states for softwares!) Each state might yield different outputs, making testing so hard.
 
-State := mutable state specifically. (variables, not value)
+State := mutable state specifically. ( (global) variables, not value)
 
 Impact of state on **testing** : the common approach is to start from the beginning. It is however not always possible. The problem is that testing for *one set of inputs* tells you nothing at all about the behaviour of different *set of inputs*.
 
