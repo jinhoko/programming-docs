@@ -122,7 +122,7 @@ The complexity could not possibly be avoided even in the real world. Try to redu
  - Try to only leave essential state.
 - Control : is enirely accidental.
 
-![image1]()
+![image1](https://github.com/dgggit/dist/blob/master/out-of-the-tar-pit/image1.png?raw=true)
 
 
 ### 7.2,3. Real world and Recommendations
@@ -131,16 +131,16 @@ The complexity could not possibly be avoided even in the real world. Try to redu
  - 2. for ease of expression (e.g. data derived from a whole series of user inputs **and** previous values
 
 Recommendation : separate and avoid
-![image2]()
+![image2](https://github.com/dgggit/dist/blob/master/out-of-the-tar-pit/image2.png?raw=true)
 
 As a result, **seperation** is critical for avoiding complexity.
 
-## 7.3. Seperation
+## 7.3. Separation
 Follow the steps :
 1. Essential state first ; data (representation) first
 2. Essential logic ; business logic
 3. Accidental state and control 
 
-Look for the arrows in the image!
-![image3]()
+Look for the arrows in the image! The direction of the arrows must be followed. 
+![image3](https://github.com/dgggit/dist/blob/master/out-of-the-tar-pit/image3.png?raw=true)
 
