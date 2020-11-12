@@ -41,4 +41,19 @@ Impact of state on **informal reasoning** : results in case-by-case mental simul
 
 What we have to do : **limit and manage** the state.
 
-#### 4.2. 
+#### 4.2. Complexity caused by Control
+
+The difficulty is that when control is an implicit part of the language (as it always is). When a programmer codes, he/she must be forced to specify **how** the system should work(in the matter of context) but **not simply what** is desired. Hence they are forced to over-specify the problem. 
+
+These behavior makes reader to infer the 'how's of a programmer. The program is ought to be written in some order (in a imperative manner).
+
+Another control-related problem : concurrency (that affects testing as well). Common model is 'shared-state concurrency', that specifies the explicit control synchronization.
+
+#### 4.3. Complexity caused by Code Volume
+
+> (Brooks, 1986) Many of the classic problems developing software products derivce from this essential complexity and its nonlinear increase with size.  
+> (Djikstra, 1972) ... there is some kind of law of nature telling us that intellectual effort needed grows with the square of program length. 
+
+#### 4.4. Other types of Complexity causes
+
+Dead code, unnecessary (data) abstraction
