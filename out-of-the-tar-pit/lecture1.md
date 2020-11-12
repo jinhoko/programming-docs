@@ -35,8 +35,10 @@ Conclusion : all methods of understanding have its shortcomings (even the inform
 
 State := mutable state specifically. (variables, not value)
 
-Impact of state on testing : the common approach is to start from the beginning. It is however not always possible. The problem is that testing for *one set of inputs* tells you nothing at all about the behaviour of different *set of inputs*.
+Impact of state on **testing** : the common approach is to start from the beginning. It is however not always possible. The problem is that testing for *one set of inputs* tells you nothing at all about the behaviour of different *set of inputs*.
 
+Impact of state on **informal reasoning** : results in case-by-case mental simulation. ('if... then... otherwise... and that as well.. blablabla'). The number of considerations grow exponentially. Consider, if a stateless procedure is dependent to the stateful procedure, it becomes a stateful procedure as well.
 
+What we have to do : **limit and manage** the state.
 
 #### 4.2. 
