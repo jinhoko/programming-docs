@@ -144,3 +144,8 @@ Follow the steps :
 Look for the arrows in the image! The direction of the arrows must be followed. 
 ![image3](https://github.com/dgggit/dist/blob/master/out-of-the-tar-pit/image3.png?raw=true)
 
+## Miscellaneous
+- Minimize mutable states
+- But not 100% pure FP (it is not applicable in real world)
+- Consciously split the program into 3 regions (essential state, essential control and accidental stuffs)
+- Composability (compose things), Separation of concerns
