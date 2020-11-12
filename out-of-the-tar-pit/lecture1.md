@@ -14,7 +14,7 @@ What makes building software hard : **Complexity, Conformity, Changeability and 
 > (Hoare, 1980) The price of realibility is the pursuit of utmost simplicity. ... Two ways of constructing a software design : one is to make it so simple that there are no deficiencies, and other is to make it so complicated so that there are no obvious deficiencies. First one is much harder.
 
 
-## 3. How to UNDERSTAND a system
+## 3. How to understand a system
 
 Two widely-used approaches
 - Testing : black-box approach ; infer from the input and output
