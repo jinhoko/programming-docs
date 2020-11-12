@@ -79,6 +79,8 @@ It has evolved as the dominant method of general software development of traditi
 **Control**
 - Achieves concurrency control with message-passing model
 
+=> OOP suffers greatly from state-derived and control-derived complexity.
+
 ### 5.2. Functional programming
 
 FP has its roots in completely stateless lambda calculus. The untyped lambda calculus is known to be equivalent in power to the standard stateful abstraction of compution : the Turing machine.
@@ -86,6 +88,7 @@ FP has its roots in completely stateless lambda calculus. The untyped lambda cal
 **State**
 - It avoids state and gains property of *referential transparancy*.
 - Informal reasoning gets effective.
+- Encourages a more abstract use of control (fold, map, filter, foreach)
 
 **Kinds of state**
 - Achieve state by passing extra parameters to the procedure. 
