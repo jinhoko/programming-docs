@@ -98,6 +98,7 @@ There is no reason why the functional sytyle of programming cannot be adopted in
 
 ### 5.3. Logic Programming
 
+.
 
 ## 6. Accidents and Essence
 
@@ -111,8 +112,35 @@ Two types of complexity :
  
 ## 7. Recommended General Approach
 
-The complexity could not possibly be avoided even in the real world
+The complexity could not possibly be avoided even in the real world. Try to reduce much accidental complexity as much as possible.
 
-### 7.1. Ideal wworld
+### 7.1. Ideal world
 
-### 
+- First step : informal requirements -> formal requirements
+- Goal : Minimize accidental state.
+- Classify data (into 4 types) ; refer to the following image
+ - Try to only leave essential state.
+- Control : is enirely accidental.
+
+![image1]()
+
+
+### 7.2,3. Real world and Recommendations
+- Required accidental complexity in the real world
+ - 1. for performance (e.g. cache)
+ - 2. for ease of expression (e.g. data derived from a whole series of user inputs **and** previous values
+
+Recommendation : separate and avoid
+![image2]()
+
+As a result, **seperation** is critical for avoiding complexity.
+
+## 7.3. Seperation
+Follow the steps :
+1. Essential state first ; data (representation) first
+2. Essential logic ; business logic
+3. Accidental state and control 
+
+Look for the arrows in the image!
+![image3]()
+
