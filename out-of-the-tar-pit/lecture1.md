@@ -27,6 +27,8 @@ Problem with testing
 2. Can give you different results based on different inputs
 => Have you performed the right tests? / Reason why TDD alone is not enough.
 
+Informal reasoning is about finding invariants. => Always write invariants in codes!
+
 Conclusion : all methods of understanding have its shortcomings (even the informal reasoning)
 
 
