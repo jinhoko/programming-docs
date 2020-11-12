@@ -1,9 +1,11 @@
 # Out of the Tar Pit
 
+
 ### 1. Introduction 
 
 The contents of the paper will help simplifying the construction of large-scale software systems.   
 *(perhaps with ideas combining with the relational database world!)*
+
 
 ### 2. Complexity
 
@@ -26,6 +28,7 @@ Problem with testing
 => Have you performed the right tests?
 
 Conclusion : all methods of understanding have its shortcomings (even the informal reasoning)
+
 
 ### 4. Causes of Complexity
 
@@ -79,7 +82,7 @@ It has evolved as the dominant method of general software development of traditi
 FP has its roots in completely stateless lambda calculus. The untyped lambda calculus is known to be equivalent in power to the standard stateful abstraction of compution : the Turing machine.
 
 **State**
-- It avoids state and gains property of *referntial transparancy*.
+- It avoids state and gains property of *referential transparancy*.
 - Informal reasoning gets effective.
 
 **Kinds of state**
@@ -90,6 +93,21 @@ There is no reason why the functional sytyle of programming cannot be adopted in
 
 #### 5.3. Logic Programming
 
+
 ### 6. Accidents and Essence
 
+Two types of complexity :
+- Essential complexity : relies in the essence of the problem
+- Accidental complexity : is all the rest : one developers would not take in an ideal world
+
+> What is essential to the dev team is what the users have to do be concerned with.
+*(One following implication of the definition is, if the user don't even know about what something is, that is never a essential complexity.)*
+
+ 
 ### 7. Recommended General Approach
+
+The complexity could not possibly be avoided even in the real world
+
+#### 7.1. Ideal wworld
+
+#### 
