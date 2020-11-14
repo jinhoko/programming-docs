@@ -15,6 +15,7 @@ Stateless
 
 ### What is the real power of Type Theory?
 Type inference
+Pattern matching
 
 ### What is the real power of Traits?
 scala의 trait은 java의 interface와 개념적으로 유사한 것으로 대응되는데, 우선 사실부터 얘기하자면 trait은 interface보다 무조건 더 powerful하다.
