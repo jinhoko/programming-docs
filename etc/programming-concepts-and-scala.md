@@ -41,3 +41,6 @@ interface는 자칫 over-structured될 수 있다고 생각한다. interface는 
 Functional programming이 자유롭게 사용되는 scala language가 최근의 트렌드와 어울리지 않는 것도 아니다. Functional programming이 산업 많은 분야에서도 사용되고 있으며, scala 언어는 아니지만 javascript의 FP component라던지(Scheme 언어에서 참고했다고 함.), Android의 Official supported language가 된 Kotlin 언어도 FP의 요소들을 많이 가지고 있다.
 Big data systems에서도 적극적으로 활용될 수 있는데, Apache Spark의 transformation이 그것이다. Apache Spark의 주된 연산 패러다임으로써, 기본적으로 RDD라는 in-memory dataset의 각 item에 사용자가 제시한 function을 적용해 연산을 하는 방식으로 구현된다. 여기서 FP의 higher-order function 개념이 너무나 자연스럽게 도입될 수 있으며, parallelism을 적용하는 데 있어서도 imperative programming에 비해 훨씬 자연스럽다고 생각한다. 
 
+
+## References
+- https://thomasbandt.com/who-cares-about-functional-programming
