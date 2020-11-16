@@ -59,6 +59,8 @@ A documentation repository for POSTECH CSED434 Adv. Programming Fall 2020
 
 - *Analysis Report on Apache Spark Project Structure [link](./project/apache-spark-analysis.md)*
 - *Milestone 1 Design Document [link](./project/project1.pdf)*
+- *Milestone 2 Design Document [link](./project/project2.pdf)*
+
 
 #### External Files
 - [link](./external/)
