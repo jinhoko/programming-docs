@@ -20,7 +20,8 @@ Each action in a thread happens-before every other subsequent action in same thr
 if A -> B -> C, then A -> C
 
 ### happens-before #3 : Volatile fields
-Each time the variable must be stored/read from the main memory (ref: [link](https://nesoy.github.io/articles/2018-06/Java-volatile))
+Each time the variable must be stored/read from the main memory (invalidates cache!) (ref: [link](https://nesoy.github.io/articles/2018-06/Java-volatile))  
+Note that, **volatie vs atomic vs synchronized** is all different. (ref : [link](https://mygumi.tistory.com/112))
 
 ### happens-before #4 : Monitor locking
 ```
