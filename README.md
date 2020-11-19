@@ -55,6 +55,9 @@ A documentation repository for POSTECH CSED434 Adv. Programming Fall 2020
 | 01   | Lecture1 | [link](./learning-concurrent-programming-in-scala/lecture1.md)        |         |
 
 
+### Other Topics
+- *Testing [link](./etc/testing.md)*
+
 #### Project (Distributed External MergeSort) Design Documentation
 
 - *Analysis Report on Apache Spark Project Structure [link](./project/apache-spark-analysis.md)*
