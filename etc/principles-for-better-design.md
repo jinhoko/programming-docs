@@ -12,3 +12,9 @@ Good design = 'discover your design'
 ### No Premature Optimization
 Ask : If I don't optimize, does the project fail?
 Don't fall into the temptation of optimization
+
+### Always consider the fundamental idea of Computational Thinking
+- divide and conuquer
+- inductive definition
+- seperation of concern
+- abstraction
