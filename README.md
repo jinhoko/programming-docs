@@ -52,7 +52,8 @@ A documentation repository for POSTECH CSED434 Adv. Programming Fall 2020
 
 | Chap | Name             | Link | Comment |
 |------|------------------|---------|---------|
-| 01   | Lecture1 | [link](./learning-concurrent-programming-in-scala/lecture1.md)        |         |
+| 02   | Lecture1 | [link](./learning-concurrent-programming-in-scala/lecture1.md)        |         |
+| 04   | Lecture2 | [link](./learning-concurrent-programming-in-scala/lecture2.md)        |         |
 
 
 ### Other Topics
