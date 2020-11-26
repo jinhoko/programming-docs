@@ -13,8 +13,10 @@ Good design = 'discover your design'
 Ask : If I don't optimize, does the project fail?
 Don't fall into the temptation of optimization
 
-### Always consider the fundamental idea of Computational Thinking
+### Always consider the fundamental idea of Computational Thinking (very important)
 - divide and conuquer
 - inductive definition
 - seperation of concern
+- composibility
 - abstraction
+- data representation
