@@ -30,10 +30,30 @@ Benifits?
 
 ## Structural Patterns
 - Adaptor (`implicit class` in scala)
-- Decorator (`stackable trait` in scala)
+- Decorator (stackable `trait` in scala)
 
 ### Adaptor
+- converts the interface of a class into another interface
 
+Java way
+```
+public interface Log { void warning(), void error() }
+log = new LoggerToLogAdapter( new Logger() )
+```
+=> Users only calls the adaptor
+
+Scala way
+```
+trait Log { def warning(), def error() }
+final class Logger { def log() }
+implicit class LoggerToLogAdaper(logger: Logger) extends Log {
+  def warning = { logger.log( WARNING, msg) }
+  def error = {}
+}
+val log = new Logger()
+```
+Gets `logger:Logger` and converts to `Log`  
+Very flexible, but be very careful in using.
 
 ### Decorator
 
