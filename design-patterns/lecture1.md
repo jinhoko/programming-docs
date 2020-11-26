@@ -1,5 +1,12 @@
 # Design Patterns - Lecture 1
 
+## What is Design Pattern?
+- A set of solutions for commonly required design techniques.
+- Scala is very flexible!
+  - supports first class function
+  - by-name parameter
+  - lazy evaluation
+
 ## Creational Patterns
 - Factory method
 - Lazy initialization
