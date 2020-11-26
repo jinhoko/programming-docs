@@ -1,7 +1,7 @@
 # Design Patterns - Lecture 1
 
 ## What is Design Pattern?
-- A set of solutions for commonly required design techniques.
+- A set of solutions toq commonly required design techniques.
 - Scala is very flexible!
   - supports first class function
   - by-name parameter
@@ -63,6 +63,6 @@ Gets `logger:Logger` and converts to `Log`
 Very flexible, but be very careful in using. (howitworks) (if implicit class found, automatically convert the object!)
 
 ### Decorator
-Extends the functionality of an `object`, not a class, without creating a subclass.
+Extends the functionality of an **`object`**, not a class, without creating a subclass.
 
 
