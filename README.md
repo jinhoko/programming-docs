@@ -55,8 +55,17 @@ A documentation repository for POSTECH CSED434 Adv. Programming Fall 2020
 | 02   | Lecture1 | [link](./learning-concurrent-programming-in-scala/lecture1.md)        |         |
 | 04   | Lecture2 | [link](./learning-concurrent-programming-in-scala/lecture2.md)        |         |
 
+#### Design Patterns
 
-### Other Topics
+| Lec | Name             | Link | Comment |
+|------|------------------|---------|---------|
+| 01   | Lecture1 | [link](./design-patterns/lecture1.md)        |         |
+| 02   | Lecture2 | [link](./design-patterns/lecture2.md)        |         |
+| 02   | Lecture3 | [link](./design-patterns/lecture3.md)        |         |
+| 02   | Lecture4 | [link](./design-patterns/lecture4.md)        |         |
+
+
+#### Other Topics
 - *Testing [link](./etc/testing.md)*
 
 #### Project (Distributed External MergeSort) Design Documentation
