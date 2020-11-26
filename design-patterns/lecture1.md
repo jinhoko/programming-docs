@@ -63,6 +63,31 @@ Gets `logger:Logger` and converts to `Log`
 Very flexible, but be very careful in using. (howitworks) (if implicit class found, automatically convert the object!)
 
 ### Decorator
-Extends the functionality of an **`object`**, not a class, without creating a subclass.
+Extends the functionality of an **`object`**, not a class, without creating a subclass.  
+The order of stacking matters in the result!
+
+Decorator enables **COMPOSITION** of functions, applied to object.
+
+Java way : intermediate decorator class is used
+```
+interface Shape
+  class Circle
+  class Box (draw())
+  abstract class ShapeDecorator => intermediate decorator!
+    class ColorDecorator
+    class LineDecorator
+```
+```
+Shape circle = new circle
+Shape colorCircle = new ColorDecorator(circle)
+Shape lineColorCircle = new LineDecorator(circle)
+```
+
+Scala way : Stackable traits
+```
+trait A {}
+trait B {}
+....
+```
 
 
