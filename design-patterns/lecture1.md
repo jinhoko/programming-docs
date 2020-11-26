@@ -53,8 +53,9 @@ implicit class LoggerToLogAdaper(logger: Logger) extends Log {
 val log = new Logger()
 ```
 Gets `logger:Logger` and converts to `Log`  
-Very flexible, but be very careful in using.
+Very flexible, but be very careful in using. (howitworks) (if implicit class found, automatically convert the object!)
 
 ### Decorator
+Extends the functionality of an `object`, not a class, without creating a subclass.
 
 
