@@ -31,4 +31,31 @@ class A() {
 ```
 > Object Equality is very very tricky to implement!
 
-## 
+## Null Object
+
+in scala, use `Option[T]`.  
+in other languages, use `NullObject`.
+
+## Strategy Pattern
+
+- Defines a family of interchangeable algorithms
+- Selects an algorithm at runtime
+  - in Scala, simply pass first-class functions
+  - in C, use function pointers
+  - in Java/C++, use base class and subclasses
+  
+In Java, make `Base class`, `Strategies classes`, and `Context class`.
+In Scala
+```
+type Strategy = (Int, Int) => Int
+val add: Strategy = _+_
+val multiply: Strategy = _*_
+
+class Context(c: Strategy) {
+  def use(a, b) { c(a, b) }
+}
+new Context(multiply).use(2, 3)
+```
+
+
+
