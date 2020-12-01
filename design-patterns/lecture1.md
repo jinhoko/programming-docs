@@ -86,8 +86,37 @@ Shape lineColorCircle = new LineDecorator(circle)
 Scala way : Stackable traits
 ```
 trait A {}
-trait B {}
+trait B extends A {}
 ....
 ```
+```
+val circle = new Circle
+val colorCircle = new Circle with Color
+val lineColorCircle = new Circle with Line with Color
 
+stack order => Color -> Line -> Circle
+```
 
+##### example : EventHandler : Sync/Async
+
+```
+trait EventHandler[E] {
+  def foo()
+  def bar()
+}
+trait SyncHandling[E] extends EventHandler[E] {   => These stackable traits are decorators!
+
+}
+trait AsyncHandling[E] extends EventHandler[E] {  => These stackable traits are decorators!
+
+}
+
+class AMContainerMap () extends EventHandler {}
+
+amContainerMap = new AMC with AsyncHandling       => Async AMC!
+amContainerMap2 = new AMC with SyncHandling       => Sync AMC!
+```
+With stackable traits, we do not have to define AMContainerMap as as subclass of one of sync/async.    
+We will rather select its type in instantiation time, with the use of stackable traits.
+
+**One of the privileges of Scala language!**
