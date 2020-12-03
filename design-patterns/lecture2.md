@@ -59,5 +59,49 @@ new Context(multiply).use(2, 3)
 
 ## Loan Pattern
 
+Replaces design patterns by first-class functions
 
+```
+mailer = new Mailer();
+mailer.from();
+mailer.to();
+mail.body();
+mail.send();
+```
+Might be dangerous
 
+```
+def from() = { .. return this }
+
+mailer = new Mailer();
+mailer.from().to().body().send();
+```
+Looks much better, but still have problems
+
+```
+class Mailer(
+  public Mailer from() { return this }
+  ...
+  public sstatic void send() {
+    final Mailer mailer = new Mailer();
+    block.accept(mailer);
+  }
+}
+
+Mailer.send( 
+  mailer -> mailer.from().to().subject().body()  # java pattern
+)
+```
+`mailer` is destroyed after sending  
+Load pattern, which is much safer.
+
+## Command Pattern
+
+An object stores all the required arguments. Must hold the object all the time.
+
+Components:
+- Receiver : receive the arguments
+- Commander : calls recv's methods , contains arguments
+- Invoker : starts Commander
+
+The key part is the 3-level separation of command convey.
