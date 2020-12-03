@@ -57,5 +57,7 @@ class Context(c: Strategy) {
 new Context(multiply).use(2, 3)
 ```
 
+## Loan Pattern
+
 
 
