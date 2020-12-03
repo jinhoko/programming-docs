@@ -27,8 +27,8 @@ public abstract class EventHandler {
     if canHandle, doHandle
     else if next != null, next.handler();
   }
-  bool canHandle(); -> override
-  void doHandler(); -> override
+  bool canHandle();                       -> should be overrided in order to be in the chain
+  void doHandler();                       -> should be overrided in order to be in the chain
 }
 
 execute handler request.
@@ -38,4 +38,12 @@ execute handler request.
 
 NIO client-server framework for network applications  
 Bi-directional CoR. (since request should be returned at some time.)
+
+```
+ChannelPipeline pip = ch.pipeline()
+pipeline.addLast( new Handler() )
+pipeline.addLast( pingInactiveHander);
+pipeline.addLast( new SpillDecodeR() );
+pipeline.addLast ( ... ) ;
+```
 
