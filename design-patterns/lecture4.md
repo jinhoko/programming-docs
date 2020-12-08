@@ -85,3 +85,8 @@ This pattern is very strong due to object composition. (rather than inheritance)
 
 ## Dependency Injection in many levels
 - functions, objects, modules, subprojects
+
+
+## Dependency Injection in Commercial Products
+- Scala itself is powerful enough
+- Java utilizes Spring framework for handling dependency injection problem
