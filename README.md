@@ -1,8 +1,8 @@
-# cs434-doc
-A documentation repository for POSTECH CSED434 Adv. Programming Fall 2020
+# programming-docs
+A collection of documentation on programming-related know-hows, tooltips, and etc.
 
 ### Author
-**Jinho Ko (20180274)**, dept. of Creative IT Eng. 
+**Jinho Ko**
 
 ### Documentation list
 
@@ -18,8 +18,7 @@ A documentation repository for POSTECH CSED434 Adv. Programming Fall 2020
 | 07   | For, Maps | [link](./functional-programming-principles-in-scala/07-for-maps.md) |
 | 08   | Streams, Lazy Evalulation | [link](./functional-programming-principles-in-scala/08-streams-and-lazy-evaluation.md) |
 
-
-*Opinion on Programming Concepts and Scala [link](./etc/programming-concepts-and-scala.md)*  
+*My Opinion on Programming Concepts and Scala [link](./etc/programming-concepts-and-scala.md)*  
 *Principles for Better Design [link](./etc/principles-for-better-design.md)* 
 
 #### Summary of the book 'Clean Code' [link](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
