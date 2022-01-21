@@ -67,13 +67,7 @@ A collection of documentation on programming-related know-hows, tooltips, and et
 #### Other Topics
 - *Testing [link](./etc/testing.md)*
 
-#### Project (Distributed External MergeSort) Design Documentation
-
-- *Analysis Report on Apache Spark Project Structure [link](./project/apache-spark-analysis.md)*
-- *Milestone 1 Design Document [link](./project/project1.pdf)*
-- *Milestone 2 Design Document [link](./project/project2.pdf)*
-- *Final Report [link](./project/project-final.pdf)*
-
+#### API Design 
 
 #### External Files
 - [link](./external/)
