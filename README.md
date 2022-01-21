@@ -66,12 +66,10 @@ A collection of documentation on programming-related know-hows, tooltips, and et
 
 #### Other Topics
 - *Testing [link](./etc/testing.md)*
-
-#### API Design 
-- 
+- *API Design[link](./api-design/)*
 
 #### My project documentation example
-- 
+- [cs434-project docs](https://github.com/jinhoko/cs434-project/tree/master/docs/project)
 
 #### External Files
 - [link](./external/)
