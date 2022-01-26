@@ -1,7 +1,6 @@
 # How To Design A Good API and Why it Matters
 
-* [https://www.youtube.com/watch?v=heh4OeB9A\-c](https://www.youtube.com/watch?v=heh4OeB9A-c)
-    source : 
+* source :  [https://www.youtube.com/watch?v=heh4OeB9A\-c](https://www.youtube.com/watch?v=heh4OeB9A-c)
 * pdf : [https://github.com/jinhoko/programming\-docs/blob/master/api\-design/How%20to%20Design%20a%20Good%20API%20and%20Why%20it%20Matters.pdf](https://github.com/jinhoko/programming-docs/blob/master/api-design/How%20to%20Design%20a%20Good%20API%20and%20Why%20it%20Matters.pdf)
 
 Why is API design important?
